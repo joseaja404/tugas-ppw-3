@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 1. Judul Tab Browser -->
+    <title>Profil Wisata - Candi Borobudur</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 30px;
+            color: #333;
+        }
+        /* 4. Menggunakan Div sebagai wadah konten */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        .deskripsi {
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        .galeri {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .galeri img {
+            border-radius: 6px;
+            border: 2px solid #ddd;
+            padding: 4px;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 4. Menggunakan Div sebagai wadah konten utama -->
+    <div class="container">
+        
+        <!-- 1. Judul Utama -->
+        <h1>Candi Borobudur, Magelang</h1>
+
+        <!-- 3. Deskripsi Singkat Mengenai Tempat Yang Dipilih -->
+        <div class="deskripsi">
+            <p><strong>Candi Borobudur</strong> adalah sebuah candi Buddha yang terletak di Borobudur, Magelang, Jawa Tengah, Indonesia. Candi ini didirikan oleh para penganut agama Buddha Mahayana sekitar tahun 800-an Masehi pada masa pemerintahan wangsa Sailendra. Borobudur merupakan monumen Buddha terbesar di dunia sekaligus salah satu keajaiban dunia.</p>
+            <p>Arsitektur bangunan ini berbentuk punden berundak, dengan enam teras bujur sangkar dan tiga pelataran melingkar. Dindingnya dihiasi oleh ribuan panel relief dan ratusan arca Buddha yang menceritakan berbagai kisah spiritual serta sejarah peradaban masa lampau.</p>
+        </div>
+
+        <hr>
+
+        <!-- 2 & 5. Minimal 3 Gambar dari folder 'images' dengan atribut lengkap -->
+        <h2>Galeri Foto Wisata</h2>
+        <div class="galeri">
+            <!-- Gambar 1 -->
+            <img src="images/borobudur_1.jpg" 
+                 alt="Pemandangan matahari terbit di atas Candi Borobudur" 
+                 width="230" 
+                 height="150" 
+                 title="Sunrise di Candi Borobudur" 
+                 loading="lazy">
+
+            <!-- Gambar 2 -->
+            <img src="images/borobudur_2.jpg" 
+                 alt="Detail relief dinding batu di Candi Borobudur" 
+                 width="230" 
+                 height="150" 
+                 title="Detail Relief Dinding Candi" 
+                 loading="lazy">
+
+            <!-- Gambar 3 -->
+            <img src="images/borobudur_3.jpg" 
+                 alt="Stupa utama Candi Borobudur dengan latar langit biru" 
+                 width="230" 
+                 height="150" 
+                 title="Stupa Utama Borobudur" 
+                 loading="lazy">
+        </div>
+
+    </div>
+
+</body>
+</html>
